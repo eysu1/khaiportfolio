@@ -211,7 +211,7 @@
                 "CF 3.jpg",
                 "CF 4.jpg" // Add more images as needed
             ];
-            showPortfolio('portfolio/Company Folder Design', images);
+            showPortfolio('portfolio/Company%20folder%20design', images);
         }
 
         function showFullPortfolio() {
@@ -222,7 +222,7 @@
             a.href = "portfolio2024.pdf";
             a.target = "_blank"; // Open the PDF in a new tab
             var img = document.createElement("img");
-            img.src = "thumbnail/portfolio%202024.jpg"; // Assuming you have a thumbnail for the PDF
+            img.src = ""; // Assuming you have a thumbnail for the PDF
             a.appendChild(img);
             portfolioDiv.appendChild(a);
 
