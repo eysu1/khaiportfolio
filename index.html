@@ -45,11 +45,11 @@
                     <h3>Magazine</h3>
                 </article>
                 <article class="col-6 col-12-xsmall work-item">
-                    <a href="javascript:void(0);" onclick="showVector()" class="image fit thumb"><img src="thumbnail/My Portfolio-1.jpg" alt="Vector Thumbnail"></a>
+                    <a href="javascript:void(0);" onclick="showVector()" class="image fit thumb"><img src="thumbnail/My%20Portfolio-1.jpg" alt="Vector Thumbnail"></a>
                     <h3>Vector</h3>
                 </article>
                 <article class="col-6 col-12-xsmall work-item">
-                    <a href="javascript:void(0);" onclick="showEditorial()" class="image fit thumb"><img src="thumbnail/Book inside design-1.jpg" alt="Editorial Thumbnail"></a>
+                    <a href="javascript:void(0);" onclick="showEditorial()" class="image fit thumb"><img src="thumbnail/Book%20inside%20design-1.jpg" alt="Editorial Thumbnail"></a>
                     <h3>Editorial</h3>
                 </article>
                 <article class="col-6 col-12-xsmall work-item">
@@ -57,7 +57,7 @@
                     <h3>Brochure</h3>
                 </article>
                 <article class="col-6 col-12-xsmall work-item">
-                    <a href="javascript:void(0);" onclick="showCompanyFolderDesign()" class="image fit thumb"><img src="thumbnail/Company Folder Design_2-1.jpg" alt="Company Folder Design Thumbnail"></a>
+                    <a href="javascript:void(0);" onclick="showCompanyFolderDesign()" class="image fit thumb"><img src="thumbnail/Company%20Folder%20Design_2-1.jpg" alt="Company Folder Design Thumbnail"></a>
                     <h3>Company Folder Design</h3>
                 </article>
             </div>
@@ -157,7 +157,7 @@
                 "ADS (17).png",
                 "ADS (18).png",
                 "ADS (19).png",
-                "ADS (20).png",  // Add more images as needed
+                "ADS (20).png", // Add more images as needed
             ];
             showPortfolio('portfolio/Advertisement', images);
         }
@@ -166,7 +166,7 @@
             showRecentWork();
             var images = [
                 "IMG_5245.png",
-                "Stay Another Day 2.png" // Add more images as needed
+                "Stay%20Another%20Day%202.png" // Add more images as needed
             ];
             showPortfolio('portfolio/Magazine', images);
         }
@@ -175,7 +175,7 @@
             showRecentWork();
             var images = [
                 "vector1.jpg",
-                "vector2.jpg", // Add more images as needed
+                "vector2.jpg"// Add more images as needed
             ];
             showPortfolio('portfolio/Vector', images);
         }
@@ -189,7 +189,7 @@
                 "Book D 3.jpg",
                 "Book D 4.jpg",
                 "Book D 5.jpg",
-                "Book D 6.jpg", // Add more images as needed
+                "Book D 6.jpg" // Add more images as needed
             ];
             showPortfolio('portfolio/Editorial', images);
         }
@@ -211,7 +211,7 @@
                 "CF 3.jpg",
                 "CF 4.jpg" // Add more images as needed
             ];
-            showPortfolio('portfolio/Company Folder Design', images);
+            showPortfolio('portfolio/Company%20Folder%20Design', images);
         }
 
         function showFullPortfolio() {
@@ -219,10 +219,10 @@
             portfolioDiv.innerHTML = ""; // Clear previous content
 
             var a = document.createElement("a");
-            a.href = "portfolio 2024.PDF";
+            a.href = "portfolio%202024.PDF";
             a.target = "_blank"; // Open the PDF in a new tab
             var img = document.createElement("img");
-            img.src = ""; // Assuming you have a thumbnail for the PDF
+            img.src = "thumbnail/portfolio%202024.jpg"; // Assuming you have a thumbnail for the PDF
             a.appendChild(img);
             portfolioDiv.appendChild(a);
 
