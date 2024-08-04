@@ -1,101 +1,242 @@
 <!DOCTYPE HTML>
-<!--
-    Strata by HTML5 UP
-    html5up.net | @ajlkn
-    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-    <head>
-        <title>Strata by HTML5 UP</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <link rel="stylesheet" href="assets/css/main.css" />
-    </head>
-    <body class="is-preload">
+<head>
+    <title>Strata by HTML5 UP</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" />
+</head>
+<body class="is-preload">
 
-        <!-- Header -->
-        <header id="header">
-            <div class="inner">
-                <a href="#" class="image avatar"><img src="images/f9075392.jpg" alt="" /></a>
-                <h1><strong>I am Sybill Erika Mamucod</strong>, a Graphic artist/Layout artist<br /><a href="http://html5up.net"></a>.</h1>
-            </div>
-        </header>
-
-        <!-- Main -->
-        <div id="main">
-
-            <!-- One -->
-            <section id="one">
-                <header class="major">
-                    <h2>Creative individual skilled in graphic design,<br />
-                        storytelling through visuals, and finding creative solutions.</h2>
-                </header>
-                <p>My experience with layout design using Adobe InDesign includes Print Design, Magazines and Brochures, Books, Digital Publications, Interactive PDFs, eBooks, Branding and Marketing Materials, Flyers and Posters. Passionate about creating visually captivating designs from concept to completion. I aim to provide impactful visual solutions and quality designs that connect with audiences by paying attention to detail and prioritizing creativity. Greetings to my portfolio – a display of my experiences and skills in graphic art.</p>
-            </section>
-
-            <!-- Two -->
-            <section id="two">
-                <h2>Recent Work</h2>
-                <div class="row">
-                    <article class="col-6 col-12-xsmall work-item">
-                        <a href="ADS/IMG_5249.PNG" class="image fit thumb"><img src="ADS/IMG_5249.PNG" alt="" /></a>
-                        <h3>Advertisement Design</h3>
-                    </article>
-                    <article class="col-6 col-12-xsmall work-item">
-                        <a href="Magazine/IMG_5245.PNG" class="image fit thumb"><img src="Magazine/IMG_5245.PNG" alt="" /></a>
-                        <h3>Magazine</h3>
-                    </article>
-                    <article class="col-6 col-12-xsmall work-item">
-                        <a href="Erika Folder/My Portfolio-1.jpg" class="image fit thumb"><img src="Erika Folder/My Portfolio-1.jpg" alt="" /></a>
-                        <h3>Vector</h3>
-                    </article>
-                    <article class="col-6 col-12-xsmall work-item">
-                        <a href="Erika Folder/Book inside design-1.jpg" class="image fit thumb"><img src="Erika Folder/Book inside design-1.jpg" alt="" /></a>
-                        <h3>Editorial</h3>
-                    </article>
-                    <article class="col-6 col-12-xsmall work-item">
-                        <a href="Erika Folder/BROCHURE-1.jpg" class="image fit thumb"><img src="Erika Folder/BROCHURE-1.jpg" alt="" /></a>
-                        <h3>Brochure</h3>
-                    </article>
-                </div>
-                <ul class="actions">
-                    <li><a href="#" class="button">Portfolio</a></li>
-                </ul>
-            </section>
-
-            <!-- Three -->
-            <section id="three">
-                <h3 class="icon solid fa-home"><span class="label">Location</span></h3> Brgy. Longos<br />
-                Malabon City, Metro Manila<br />
-                Philippines
-                <h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
-                +639-457-592627
-                <h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-                <a href="mailto:mamucoderika@gmail.com">mamucoderika@gmail.com</a>
-            </section>
-
+    <!-- Header -->
+    <header id="header">
+        <div class="inner">
+            <a href="#" class="image avatar"><img src="f9075392.jpg" alt="" /></a>
+            <h1><strong>I am Sybill Erika Mamucod</strong>, a Graphic Artist/Layout-Artist.<br /></h1>
         </div>
+    </header>
 
-        <!-- Footer -->
-        <footer id="footer">
-            <div class="inner">
-                <ul class="icons">
-                    <li><a href="https://www.linkedin.com/in/mamucodsybillerika/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                    <li><a href="https://www.instagram.com/khai_mamucod/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-                </ul>
-                <ul class="copyright">
-                    <li>&copy; khai_mamucod</li>
-                </ul>
+    <!-- Main -->
+    <div id="main">
+
+        <!-- One -->
+        <section id="one">
+            <header class="major">
+                <h2>Creative individual skilled in graphic design,<br />
+                    storytelling through visuals, and finding creative solutions.</h2>
+            </header>
+            <p>My experience with layout design using Adobe InDesign includes Print Design, Magazines and Brochures, Books, Digital Publications, Interactive PDFs, eBooks, Branding and Marketing Materials, Flyers and Posters. Passionate about creating visually captivating designs from concept to completion. I aim to provide impactful visual solutions and quality designs that connect with audiences by paying attention to detail and prioritizing creativity. Greetings to my portfolio – a display of my experiences and skills in graphic art.</p>
+            <ul class="actions">
+                <li><a href="javascript:void(0);" class="button" onclick="showRecentWork()">Learn More</a></li>
+            </ul>
+        </section>
+
+        <!-- Two -->
+        <section id="two" style="display: none;">
+            <h2>Recent Work</h2>
+            <div class="row">
+                <article class="col-6 col-12-xsmall work-item">
+                    <a href="javascript:void(0);" onclick="showAdvertisementDesign()" class="image fit thumb"><img src="thumbnail/IMG_5249.PNG" alt="Advertisement Design Thumbnail"></a>
+                    <h3>Advertisement Design</h3>
+                </article>
+                <article class="col-6 col-12-xsmall work-item">
+                    <a href="javascript:void(0);" onclick="showMagazine()" class="image fit thumb"><img src="thumbnail/IMG_5245.PNG" alt="Magazine Thumbnail"></a>
+                    <h3>Magazine</h3>
+                </article>
+                <article class="col-6 col-12-xsmall work-item">
+                    <a href="javascript:void(0);" onclick="showVector()" class="image fit thumb"><img src="thumbnail/My Portfolio-1.jpg" alt="Vector Thumbnail"></a>
+                    <h3>Vector</h3>
+                </article>
+                <article class="col-6 col-12-xsmall work-item">
+                    <a href="javascript:void(0);" onclick="showEditorial()" class="image fit thumb"><img src="thumbnail/Book inside design-1.jpg" alt="Editorial Thumbnail"></a>
+                    <h3>Editorial</h3>
+                </article>
+                <article class="col-6 col-12-xsmall work-item">
+                    <a href="javascript:void(0);" onclick="showBrochure()" class="image fit thumb"><img src="thumbnail/BROCHURE-1.jpg" alt="Brochure Thumbnail"></a>
+                    <h3>Brochure</h3>
+                </article>
+                <article class="col-6 col-12-xsmall work-item">
+                    <a href="javascript:void(0);" onclick="showCompanyFolderDesign()" class="image fit thumb"><img src="thumbnail/Company Folder Design_2-1.jpg" alt="Company Folder Design Thumbnail"></a>
+                    <h3>Company Folder Design</h3>
+                </article>
             </div>
-        </footer>
+            <div id="portfolio-content" class="portfolio-images"></div>
+            <ul class="actions">
+                <li><a href="javascript:void(0);" class="button" onclick="showFullPortfolio()">Full Portfolio</a></li>
+            </ul>
+        </section>
 
-        <!-- Scripts -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/jquery.poptrox.min.js"></script>
-        <script src="assets/js/browser.min.js"></script>
-        <script src="assets/js/breakpoints.min.js"></script>
-        <script src="assets/js/util.js"></script>
-        <script src="assets/js/main.js"></script>
+        <!-- Contact -->
+        <section id="three">
+            <h2>Contact Information</h2>
+            <div class="row">
+                <div class="col-12 col-12-small">
+                    <ul class="labeled-icons">
+                        <li>
+                            <h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+                            Brgy. Longos<br />
+                            Malabon City, Metro Manila<br />
+                            Philippines
+                        </li>
+                        <li>
+                            <h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+                            +639-4575-92627
+                        </li>
+                        <li>
+                            <h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+                            <a href="mailto:mamucoderika@gmail.com">mamucoderika@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-    </body>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        function showPortfolio(folder, images) {
+            var portfolioDiv = document.getElementById("portfolio-content");
+            portfolioDiv.innerHTML = ""; // Clear previous content
+
+            images.forEach(function(src, index) {
+                var a = document.createElement("a");
+                a.href = folder + "/" + src;
+                a.setAttribute("data-lightbox", "portfolio");
+                a.setAttribute("data-title", " "); // Empty caption
+                var img = document.createElement("img");
+                img.src = folder + "/" + src;
+                a.appendChild(img);
+                portfolioDiv.appendChild(a);
+            });
+
+            // Trigger the first image in the gallery to open Lightbox
+            if (portfolioDiv.firstChild) {
+                portfolioDiv.firstChild.click();
+            }
+
+            // Clear the portfolio content after Lightbox is triggered
+            setTimeout(function() {
+                portfolioDiv.innerHTML = "";
+            }, 100); // Adjust the timeout as needed
+        }
+
+        function showRecentWork() {
+            var recentWorkSection = document.getElementById("two");
+            recentWorkSection.style.display = "block";
+        }
+
+        function showAdvertisementDesign() {
+            showRecentWork();
+            // List of images in the Advertisement folder
+            var images = [
+                "IMG_5249.png",
+                "ADS (1).png",
+                "ADS (2).png",
+                "ADS (3).png",
+                "ADS (4).png",
+                "ADS (5).png",
+                "ADS (6).png",
+                "ADS (7).png",
+                "ADS (9).png",
+                "ADS (10).png",
+                "ADS (11).png",
+                "ADS (12).png",
+                "ADS (13).png",
+                "ADS (14).png",
+                "ADS (15).png",
+                "ADS (16).png",
+                "ADS (17).png",
+                "ADS (18).png",
+                "ADS (19).png",
+                "ADS (20).png",  // Add more images as needed
+            ];
+            showPortfolio('portfolio/Advertisement', images);
+        }
+
+        function showMagazine() {
+            showRecentWork();
+            var images = [
+                "IMG_5245.png",
+                "Stay Another Day 2.png" // Add more images as needed
+            ];
+            showPortfolio('portfolio/Magazine', images);
+        }
+
+        function showVector() {
+            showRecentWork();
+            var images = [
+                "vector1.jpg",
+                "vector2.jpg", // Add more images as needed
+            ];
+            showPortfolio('portfolio/Vector', images);
+        }
+
+        function showEditorial() {
+            showRecentWork();
+            var images = [
+                "BID.jpg",
+                "Book D 1.jpg",
+                "Book D 2.jpg",
+                "Book D 3.jpg",
+                "Book D 4.jpg",
+                "Book D 5.jpg",
+                "Book D 6.jpg", // Add more images as needed
+            ];
+            showPortfolio('portfolio/Editorial', images);
+        }
+
+        function showBrochure() {
+            showRecentWork();
+            var images = [
+                "BRO 1.jpg",
+                "BRO 2.jpg" // Add more images as needed
+            ];
+            showPortfolio('portfolio/Brochure', images);
+        }
+
+        function showCompanyFolderDesign() {
+            showRecentWork();
+            var images = [
+                "CF 2.jpg",
+                "CF 1.jpg",
+                "CF 3.jpg",
+                "CF 4.jpg" // Add more images as needed
+            ];
+            showPortfolio('portfolio/Company Folder Design', images);
+        }
+
+        function showFullPortfolio() {
+            var portfolioDiv = document.getElementById("portfolio-content");
+            portfolioDiv.innerHTML = ""; // Clear previous content
+
+            var a = document.createElement("a");
+            a.href = "portfolio 2024.PDF";
+            a.target = "_blank"; // Open the PDF in a new tab
+            var img = document.createElement("img");
+            img.src = "thumbnail/portfolio 2024.jpg"; // Assuming you have a thumbnail for the PDF
+            a.appendChild(img);
+            portfolioDiv.appendChild(a);
+
+            // Trigger the PDF link to open in a new tab
+            if (portfolioDiv.firstChild) {
+                portfolioDiv.firstChild.click();
+            }
+
+            // Clear the portfolio content after the link is triggered
+            setTimeout(function() {
+                portfolioDiv.innerHTML = "";
+            }, 100); // Adjust the timeout as needed
+        }
+    </script>
+
+</body>
 </html>
